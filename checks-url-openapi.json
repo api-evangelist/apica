@@ -1,0 +1,71 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Checks URL",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/checks\/url ": {
+            " POST ": {
+                "summary": "Checks URL",
+                "description": "Creates a new URL check (legacy version 1).",
+                "operationId": "ChecksUrl",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/url-v2 ": {
+            " POST ": {
+                "summary": "Checks URL",
+                "description": "Creates a new URL check (version 2).",
+                "operationId": "ChecksUrlV2",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/url\/{checkId} ": {
+            " PUT ": {
+                "summary": "Checks URL",
+                "description": "Updates a URL check (legacy version 1).",
+                "operationId": "ChecksUrlCheckid",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/url-v2\/{checkId} ": {
+            " PUT ": {
+                "summary": "Checks URL",
+                "description": "Updates a URL check (version 2).",
+                "operationId": "ChecksUrlV2Checkid",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/url\/locations ": {
+            " GET ": {
+                "summary": "Checks URL Locations",
+                "description": "Gets a list of all locations that are available for URL (legacy version 1) checks.",
+                "operationId": "ChecksUrlLocations",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/url-v2\/locations ": {
+            " GET ": {
+                "summary": "Checks URL Locations",
+                "description": "Gets a list of all locations that are available for URL (version 2) checks.",
+                "operationId": "ChecksUrlV2Locations",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
