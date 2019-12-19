@@ -1,0 +1,226 @@
+{
+    "id": "c0efe8cedccb1353842c3c8049a459e8",
+    "name": "Checks API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "bd49b8150c19d5b3de5d20aadb043981",
+            "name": "Get Checks",
+            "url": "httpsapi.pingdom.com\/\/checks ",
+            "description": "Gets a list of all checks that are visible to you as a user or a customer depending on the request context.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "rawModeData": ""
+        },
+        {
+            "id": "4c9c028366aa5a7f77430d76bd6dc80c",
+            "name": "Get Check",
+            "url": "httpsapi.pingdom.com\/\/checks\/{checkId} ",
+            "description": "Gets info about a check, current SLA, last result and its status.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "rawModeData": ""
+        },
+        {
+            "id": "18b1eb7c3b867941ae94a6fd7715f979",
+            "name": "Update Check",
+            "url": "httpsapi.pingdom.com\/\/checks\/{checkId} ",
+            "description": "Updates a check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "rawModeData": ""
+        },
+        {
+            "id": "34590d0ee38e86ba39c6eb00d88149de",
+            "name": "Delete Check",
+            "url": "httpsapi.pingdom.com\/\/checks\/{checkId} ",
+            "description": "Deletes a check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " DELETE ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "rawModeData": ""
+        },
+        {
+            "id": "9cb816d4f57667c8376ec4a8ca0c342d",
+            "name": "Get Checks Lastvalue",
+            "url": "httpsapi.pingdom.com\/\/checks\/{checkId}\/lastvalue ",
+            "description": "Gets the absolute last value of a specific check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "rawModeData": ""
+        },
+        {
+            "id": "122cb956069b80f8b3f239b5236086f1",
+            "name": "Get Checks Results",
+            "url": "httpsapi.pingdom.com\/\/checks\/{checkId}\/results\/{millisecondsUtc}",
+            "description": "Gets a specific check result by a numeric java timestamp.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "rawModeData": ""
+        },
+        {
+            "id": "bfae01b3bab2b7e0470e8bbaf25414e6",
+            "name": "Get Checks Results",
+            "url": "httpsapi.pingdom.com\/\/checks\/{checkId}\/results",
+            "description": "Gets the most recent check results.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "rawModeData": ""
+        },
+        {
+            "id": "010d4b969cf1e1cfb91c0df826326bc5",
+            "name": "Get Check List",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/checks",
+            "description": "Returns a list overview of all checks.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "Limits the number of returned probes to the specified quantity. (Max value is 25000)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "offset",
+                    "description": "Offset for listing. (Requires limit.)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "include_tags",
+                    "description": "Include tag list for each check. Tags can be marked as &quot;a&quot; or &quot;u&quot;, for auto tagged or user tagged.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tags",
+                    "description": "Tag list separated by commas. As an example &quot;nginx,apache&quot; would filter out all responses except those tagged nginx or apache.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "rawModeData": ""
+        }
+    ]
+}
