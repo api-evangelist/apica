@@ -1,0 +1,42 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Scenarios API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/scenarios\/proxysniffer\/dictionaries ": {
+            " POST ": {
+                "summary": "Scenarios Proxy Sniffer Dictionaries",
+                "description": "Adds Proxy Sniffer scenario custom dictionary.\t\t\t",
+                "operationId": "PostScenariosProxysnifferDictionaries",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/scenarios\/proxysniffer\/dictionaries\/{dictionary_key} ": {
+            " GET ": {
+                "summary": "Scenarios Proxy Sniffer Dictionaries",
+                "description": "Gets a Proxy Sniffer scenario custom dictionary by dictionary key. Custom dictionary can contain any data used by Proxy Sniffer scripts which needs to be stored separately from scripts.\t\t\t",
+                "operationId": "GetScenariosProxysnifferDictionariesDictionaryKey",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " PUT ": {
+                "summary": "Scenarios Proxy Sniffer Dictionaries",
+                "description": "Updates Proxy Sniffer scenario custom dictionary.\t\t\t",
+                "operationId": "PutScenariosProxysnifferDictionariesDictionaryKey",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
