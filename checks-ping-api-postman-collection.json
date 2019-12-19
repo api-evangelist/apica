@@ -1,0 +1,82 @@
+{
+    "id": "9450344c905b380178b77d7b9ed8b886",
+    "name": "Checks Ping API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "541af48c3a381c2985d7b60dc3b663ec",
+            "name": "Checks Ping",
+            "url": "\/checks\/ping ",
+            "description": "Creates a new Ping check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9450344c905b380178b77d7b9ed8b886",
+            "rawModeData": ""
+        },
+        {
+            "id": "e97018ee71d5851b55f34df8f841d90d",
+            "name": "Checks Ping",
+            "url": "\/checks\/ping\/{checkId} ",
+            "description": "Updates a Ping check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9450344c905b380178b77d7b9ed8b886",
+            "rawModeData": ""
+        },
+        {
+            "id": "ef1a008dc9f740379c1e110b0190cf68",
+            "name": "Checks Ping Locations",
+            "url": "\/checks\/ping\/locations ",
+            "description": "Gets a list of all locations that are available for Ping checks.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9450344c905b380178b77d7b9ed8b886",
+            "rawModeData": ""
+        }
+    ]
+}
