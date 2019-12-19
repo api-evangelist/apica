@@ -1,0 +1,44 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Checks Ping API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/checks\/ping ": {
+            " POST ": {
+                "summary": "Checks Ping",
+                "description": "Creates a new Ping check.",
+                "operationId": "ChecksPing",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/ping\/{checkId} ": {
+            " PUT ": {
+                "summary": "Checks Ping",
+                "description": "Updates a Ping check.",
+                "operationId": "ChecksPingCheckid",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/ping\/locations ": {
+            " GET ": {
+                "summary": "Checks Ping Locations",
+                "description": "Gets a list of all locations that are available for Ping checks.",
+                "operationId": "ChecksPingLocations",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
