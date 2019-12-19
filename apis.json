@@ -1,0 +1,313 @@
+{
+    "name": "Apica",
+    "description": "Apica\u2019s performance testing and monitoring solutions provide critical peak performance data and 24\/7 monitoring of applications and sites around the world.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+    "tags": [
+        "api provider",
+        "have api",
+        "monitoring",
+        "performance",
+        "relative data",
+        "service api",
+        "testing"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Checks Command API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/checks-command-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-command-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Checks URL",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/checks-url.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-url-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Checks Proxysniffer",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/checks-proxysniffer.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-proxysniffer-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Scenarios API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/scenarios-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/scenarios-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Checks API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/checks-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Customers API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/customers-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/customers-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Messages API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/messages-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/messages-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Checks Job API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/checks-job-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-job-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Browser Checks API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/browser-checks-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/browser-checks-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Checks Ping API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/checks-ping-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-ping-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Roles API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/roles-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/roles-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Checks Port API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/checks-port-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-port-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Groups API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19004-apica.jpg",
+            "humanURL": "https:\/\/www.apicasystem.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/groups-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/groups-api-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "https:\/\/www.apicasystem.com\/blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/www.apicasystem.com\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/apica"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/api-wpm.apicasystem.com\/v3\/help"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/api-wpm.apicasystem.com\/v3\/Help"
+        },
+        {
+            "type": "Email",
+            "url": "support@apicasystems.com"
+        },
+        {
+            "type": "Email",
+            "url": "sales@apicasystems.com"
+        },
+        {
+            "type": "Email",
+            "url": "swesales@apicasystems.com"
+        },
+        {
+            "type": "Email",
+            "url": "operations@apicasystem.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/ApicaSystem"
+        },
+        {
+            "type": "LinkedIn",
+            "url": "https:\/\/www.linkedin.com\/company\/apica-ab"
+        },
+        {
+            "type": "Phone",
+            "url": "1 (310) 776-7540"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/apicasystems"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.apicasystem.com"
+        }
+    ]
+}
