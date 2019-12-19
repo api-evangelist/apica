@@ -1,0 +1,151 @@
+{
+    "id": "52d32ea0eb3ebde7587c4ddb077bde3c",
+    "name": "Checks URL",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "06c76823cf5c7b0c863e64aed92a74b2",
+            "name": "Checks URL",
+            "url": "\/checks\/url ",
+            "description": "Creates a new URL check (legacy version 1).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "rawModeData": ""
+        },
+        {
+            "id": "bb0646e8693277a577d00c04336647e7",
+            "name": "Checks URL",
+            "url": "\/checks\/url-v2 ",
+            "description": "Creates a new URL check (version 2).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "rawModeData": ""
+        },
+        {
+            "id": "f58fa8f424bd57757127151eefe750af",
+            "name": "Checks URL",
+            "url": "\/checks\/url\/{checkId} ",
+            "description": "Updates a URL check (legacy version 1).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "rawModeData": ""
+        },
+        {
+            "id": "696b6ef0705bfaeecf0ea9d57c612ba0",
+            "name": "Checks URL",
+            "url": "\/checks\/url-v2\/{checkId} ",
+            "description": "Updates a URL check (version 2).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "rawModeData": ""
+        },
+        {
+            "id": "e4093c9201ccc8fc4b822b977d2749cb",
+            "name": "Checks URL Locations",
+            "url": "\/checks\/url\/locations ",
+            "description": "Gets a list of all locations that are available for URL (legacy version 1) checks.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "rawModeData": ""
+        },
+        {
+            "id": "053c4101226ffdafac83bc391164cc9a",
+            "name": "Checks URL Locations",
+            "url": "\/checks\/url-v2\/locations ",
+            "description": "Gets a list of all locations that are available for URL (version 2) checks.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "rawModeData": ""
+        }
+    ]
+}
