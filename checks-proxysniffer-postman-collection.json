@@ -1,0 +1,151 @@
+{
+    "id": "bf7265e0520404619b17301753f68bf7",
+    "name": "Checks Proxysniffer",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "520a842cc04afcb3808b80cd7d8ea3c4",
+            "name": "Checks Proxy Sniffer",
+            "url": "\/checks\/proxysniffer ",
+            "description": "Creates a new ProxySniffer check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "rawModeData": ""
+        },
+        {
+            "id": "dd11f014ee842988574a514c8dc39ea9",
+            "name": "Checks Proxy Sniffer",
+            "url": "\/checks\/proxysniffer\/{checkId} ",
+            "description": "Updates a proxy sniffer check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "rawModeData": ""
+        },
+        {
+            "id": "ef7f3a60b58a0baf3f0865ccc7ff41da",
+            "name": "Checks Proxy Sniffer Locations",
+            "url": "\/checks\/proxysniffer\/locations ",
+            "description": "Gets a list of all locations that are available for ProxySniffer checks.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "rawModeData": ""
+        },
+        {
+            "id": "47efeab190a3347f605ed7f62c99fb6b",
+            "name": "Checks Proxysniffer Results",
+            "url": "\/checks\/proxysniffer\/{checkId}\/results\/{resultId}\/urldata?format={format} ",
+            "description": "Gets a file that contains ProxySniffer check result data.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "rawModeData": ""
+        },
+        {
+            "id": "0641a822fdf8eadeb6d01bf199b77a7c",
+            "name": "Checks Proxy Sniffer Results URLdata",
+            "url": "\/checks\/proxysniffer\/{checkId}\/results\/urldata ",
+            "description": "Gets ProxySniffer check results in json format by result ids.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "rawModeData": ""
+        },
+        {
+            "id": "3047f2aa67ee63b23b1f9171987a561a",
+            "name": "Checks Proxy Sniffer Results Error Log",
+            "url": "\/checks\/proxysniffer\/{checkId}\/results\/{resultId}\/errorlog ",
+            "description": "Gets an error log of the given ProxySniffer check result.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "rawModeData": ""
+        }
+    ]
+}
