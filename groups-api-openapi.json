@@ -1,0 +1,95 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Groups API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/groups ": {
+            " GET ": {
+                "summary": "Groups",
+                "description": "Gets a hierarchy of all monitor groups that are visible to you as a user or a customer depending on the request context.",
+                "operationId": "Groups",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " POST ": {
+                "summary": "Groups",
+                "description": "Creates a new monitor group.",
+                "operationId": "Groups",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/groups\/{groupId} ": {
+            " PUT ": {
+                "summary": "Groups",
+                "description": "Updates a monitor group.",
+                "operationId": "GroupsGroupid",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " DELETE ": {
+                "summary": "Groups",
+                "description": "Deletes a monitor group by Id.",
+                "operationId": "GroupsGroupid",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/groups\/{groupId}\/checks ": {
+            " GET ": {
+                "summary": "Group Checks",
+                "description": "Gets a list of checks assigned to the monitor group.",
+                "operationId": "GroupsGroupidChecks",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " POST ": {
+                "summary": "Group Checks",
+                "description": "Assigns checks to the monitor group.",
+                "operationId": "GroupsGroupidChecks",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " DELETE ": {
+                "summary": "Groups Checks",
+                "description": "Unassigns checks from the monitor group.",
+                "operationId": "GroupsGroupidChecks",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/groups\/{groupId}\/users ": {
+            " GET ": {
+                "summary": "Groups Users",
+                "description": "Gets a list of users assigned to the monitor group.",
+                "operationId": "GroupsGroupidUsers",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " POST ": {
+                "summary": "Groups Users",
+                "description": "Assigns users to the monitor group.",
+                "operationId": "GroupsGroupidUsers",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " DELETE ": {
+                "summary": "Groups Users",
+                "description": "",
+                "operationId": "GroupsGroupidUsers",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
