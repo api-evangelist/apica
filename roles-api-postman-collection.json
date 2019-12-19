@@ -1,0 +1,36 @@
+{
+    "id": "adff183fdc305bfa1e2316ac874bb583",
+    "name": "Roles API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "75855fe029c384780298c1815bce83e1",
+            "name": "Get Roles",
+            "url": "\/roles ",
+            "description": "Return user roles\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "adff183fdc305bfa1e2316ac874bb583",
+            "rawModeData": ""
+        }
+    ]
+}
