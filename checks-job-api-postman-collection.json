@@ -1,0 +1,59 @@
+{
+    "id": "35485f050e74139efd5ddc9cd1c3a46c",
+    "name": "Checks Job API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "8191ceff77e8c4cc10d0e744241cb5d9",
+            "name": "Get Checks Job",
+            "url": "\/checks\/{checkId}\/job ",
+            "description": "DEPRECATED. Gets the current job status for a check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "35485f050e74139efd5ddc9cd1c3a46c",
+            "rawModeData": ""
+        },
+        {
+            "id": "e1b00d4070074c6a08aae88d3367a4b7",
+            "name": "Get Checks Job",
+            "url": "\/checks\/{checkId}\/job ",
+            "description": "Executes a check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "35485f050e74139efd5ddc9cd1c3a46c",
+            "rawModeData": ""
+        }
+    ]
+}
