@@ -1,0 +1,128 @@
+{
+    "id": "625e79e7af5710cfbdabbd619c7d7bf3",
+    "name": "Browser Checks API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "09af560e0bed928a257efaaf9c7de75f",
+            "name": "Checks Browser",
+            "url": "\/checks\/browser ",
+            "description": "Creates a new browser check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "625e79e7af5710cfbdabbd619c7d7bf3",
+            "rawModeData": ""
+        },
+        {
+            "id": "cfc19dc29b6bcf59ea7dd64342acba51",
+            "name": "Checks Browser",
+            "url": "\/checks\/browser\/{checkId} ",
+            "description": "Updates a browser check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "625e79e7af5710cfbdabbd619c7d7bf3",
+            "rawModeData": ""
+        },
+        {
+            "id": "55adfb57f213ce6e24803e5172f297e7",
+            "name": "Checks Browser Locations",
+            "url": "\/checks\/browser\/locations ",
+            "description": "Gets a list of all locations that are available for browser checks.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "625e79e7af5710cfbdabbd619c7d7bf3",
+            "rawModeData": ""
+        },
+        {
+            "id": "668cbf5661f98735f60fc990ad97d75b",
+            "name": "Checks Browser Results",
+            "url": "\/checks\/browser\/{checkId}\/results\/{resultId}\/urldata",
+            "description": "Gets a file that contains browser check result data.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "625e79e7af5710cfbdabbd619c7d7bf3",
+            "rawModeData": ""
+        },
+        {
+            "id": "c337a20778b9e70ed25804b0d0ca31ad",
+            "name": "Checks Browser Results",
+            "url": "\/checks\/browser\/{checkId}\/results\/urldata ",
+            "description": "Gets browser check results in json format by result ids.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "625e79e7af5710cfbdabbd619c7d7bf3",
+            "rawModeData": ""
+        }
+    ]
+}
