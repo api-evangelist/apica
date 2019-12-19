@@ -1,0 +1,106 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Checks API",
+        "description": "The Checks API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pingdom.com\/"
+    ],
+    "paths": {
+        "\/checks ": {
+            " GET ": {
+                "summary": "Get Checks",
+                "description": "Gets a list of all checks that are visible to you as a user or a customer depending on the request context.",
+                "operationId": "GetChecks",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/{checkId} ": {
+            " GET ": {
+                "summary": "Get Check",
+                "description": "Gets info about a check, current SLA, last result and its status.",
+                "operationId": "GetChecksCheck",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " PUT ": {
+                "summary": "Update Check",
+                "description": "Updates a check.",
+                "operationId": "PutChecksCheck",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " DELETE ": {
+                "summary": "Delete Check",
+                "description": "Deletes a check.",
+                "operationId": "DeleteChecksCheck",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/{checkId}\/lastvalue ": {
+            " GET ": {
+                "summary": "Get Checks Lastvalue",
+                "description": "Gets the absolute last value of a specific check.",
+                "operationId": "GetChecksCheckLastvalue",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/{checkId}\/results\/{millisecondsUtc}": {
+            " GET ": {
+                "summary": "Get Checks Results",
+                "description": "Gets a specific check result by a numeric java timestamp.",
+                "operationId": "GetChecksCheckResultsMillisecondsutcDetailLevelDetailLevel",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/{checkId}\/results": {
+            " GET ": {
+                "summary": "Get Checks Results",
+                "description": "Gets the most recent check results.",
+                "operationId": "GetChecksCheckResultsMostrecentMostrecent&amp;detailLevelDetailLevel",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\n    \/api\/{version}\/checks": {
+            "\n    GET": {
+                "summary": "Get Check List",
+                "description": "Returns a list overview of all checks.",
+                "operationId": "\nGetApiVersionChecks",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Limits the number of returned probes to the specified quantity. (Max value is 25000)"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "Offset for listing. (Requires limit.)"
+                    },
+                    {
+                        "name": "include_tags",
+                        "in": "query",
+                        "description": "Include tag list for each check. Tags can be marked as &quot;a&quot; or &quot;u&quot;, for auto tagged or user tagged."
+                    },
+                    {
+                        "name": "tags",
+                        "in": "query",
+                        "description": "Tag list separated by commas. As an example &quot;nginx,apache&quot; would filter out all responses except those tagged nginx or apache."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
