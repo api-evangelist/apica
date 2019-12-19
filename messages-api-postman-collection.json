@@ -1,0 +1,280 @@
+{
+    "id": "2ae3bda1804316a145803fc487ffddc3",
+    "name": "Messages API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "5620c2dd4208db5c8e91c83a14d5b2fd",
+            "name": "Delete Buckets Messages",
+            "url": "\/buckets\/{bucketKey}\/messages",
+            "description": "Clear a bucket (remove all messages)..",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2ae3bda1804316a145803fc487ffddc3",
+            "rawModeData": ""
+        },
+        {
+            "id": "9a9abc2421303f4af0ce96cbc3118f18",
+            "name": "Get Buckets Messages",
+            "url": "\/buckets\/{bucketKey}\/messages",
+            "description": "Retrieve a list of messages in a bucket.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "before",
+                    "description": "Only return messages before the given Unix timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Maxiumum number of messages to return. Default 50, max 1000.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "since",
+                    "description": "Only return messages after the given Unix timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2ae3bda1804316a145803fc487ffddc3",
+            "rawModeData": ""
+        },
+        {
+            "id": "11659b96ab5cbb83fe32be51e33effcc",
+            "name": "Post Buckets Messages",
+            "url": "\/buckets\/{bucketKey}\/messages",
+            "description": "Create a message.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "NewMessage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2ae3bda1804316a145803fc487ffddc3",
+            "rawModeData": ""
+        },
+        {
+            "id": "1ca2ea449be4218ed05bf3d769103e30",
+            "name": "Get Buckets Messages Messageid",
+            "url": "\/buckets\/{bucketKey}\/messages\/{messageId}",
+            "description": "Retrieve the details for a single message..",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "messageId",
+                    "description": "The unique identifier for this message",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2ae3bda1804316a145803fc487ffddc3",
+            "rawModeData": ""
+        },
+        {
+            "id": "605e3c49d918398a8856c88a7adf7c28",
+            "name": "Get Messages",
+            "url": "\/messages?active={active}&amp;customerId={customerId} ",
+            "description": "Gets a list of UI messages. UI messages are used for user notifications on announcements\/information\/warnings.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2ae3bda1804316a145803fc487ffddc3",
+            "rawModeData": ""
+        },
+        {
+            "id": "07a8fff98319211bf730d0b97f6567e7",
+            "name": "Post Messages",
+            "url": "\/messages ",
+            "description": "Creates an UI message.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2ae3bda1804316a145803fc487ffddc3",
+            "rawModeData": ""
+        },
+        {
+            "id": "1e0fc8b6043c1826f24baf486b33d15e",
+            "name": "Get Messages",
+            "url": "\/messages\/{id} ",
+            "description": "Gets an existing UI message by Id.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2ae3bda1804316a145803fc487ffddc3",
+            "rawModeData": ""
+        },
+        {
+            "id": "1f9bba975c40ea6a8ae6ed9c5a51641c",
+            "name": "Put Messages",
+            "url": "\/messages\/{id} ",
+            "description": "Updates an existing UI message.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2ae3bda1804316a145803fc487ffddc3",
+            "rawModeData": ""
+        },
+        {
+            "id": "c9ea61d5cfb4a18b5b24a2ef615b6800",
+            "name": "Delete Messages",
+            "url": "\/messages\/{id} ",
+            "description": "Deletes an existing UI message.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " DELETE ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2ae3bda1804316a145803fc487ffddc3",
+            "rawModeData": ""
+        }
+    ]
+}
