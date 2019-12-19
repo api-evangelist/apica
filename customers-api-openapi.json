@@ -1,0 +1,44 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Customers API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/customers\/{customerId} ": {
+            " GET ": {
+                "summary": "Customers",
+                "description": "\r\n\t\t\t\tReturns subcustomer by subcustomer's ID.\r\n\t\t\t",
+                "operationId": "CustomersCustomerid",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/customers ": {
+            " POST ": {
+                "summary": "Customers",
+                "description": "\r\n\t\t\t\tCreates customer.\r\n\t\t\t",
+                "operationId": "Customers",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/customers\/{customerId}\/subscription ": {
+            " PUT ": {
+                "summary": "Customers Subscription",
+                "description": "\r\n\t\t\t\tUpdates customer's subscription.\r\n\t\t\t",
+                "operationId": "CustomersCustomeridSubscription",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
