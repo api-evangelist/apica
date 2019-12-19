@@ -1,0 +1,82 @@
+{
+    "id": "af41a8db964e1cb1cf0f600962eab454",
+    "name": "Customers API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "ee2223794f6b1e93d48d6114feaa3555",
+            "name": "Customers",
+            "url": "\/customers\/{customerId} ",
+            "description": "\r\n\t\t\t\tReturns subcustomer by subcustomer's ID.\r\n\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "af41a8db964e1cb1cf0f600962eab454",
+            "rawModeData": ""
+        },
+        {
+            "id": "e00ed8d746df467796512c321dd07f08",
+            "name": "Customers",
+            "url": "\/customers ",
+            "description": "\r\n\t\t\t\tCreates customer.\r\n\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "af41a8db964e1cb1cf0f600962eab454",
+            "rawModeData": ""
+        },
+        {
+            "id": "e2e24f2a5b768a270a78ae9a0ebadd4f",
+            "name": "Customers Subscription",
+            "url": "\/customers\/{customerId}\/subscription ",
+            "description": "\r\n\t\t\t\tUpdates customer's subscription.\r\n\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "af41a8db964e1cb1cf0f600962eab454",
+            "rawModeData": ""
+        }
+    ]
+}
