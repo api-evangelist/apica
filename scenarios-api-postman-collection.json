@@ -1,0 +1,82 @@
+{
+    "id": "0c22549b347432fb01bdedbda177ce6a",
+    "name": "Scenarios API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "41c8dccadc1cfa5e26b5a94296886fd7",
+            "name": "Scenarios Proxy Sniffer Dictionaries",
+            "url": "\/scenarios\/proxysniffer\/dictionaries ",
+            "description": "Adds Proxy Sniffer scenario custom dictionary.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0c22549b347432fb01bdedbda177ce6a",
+            "rawModeData": ""
+        },
+        {
+            "id": "0f9471342afd1bc2e1e4c1b8aeee747d",
+            "name": "Scenarios Proxy Sniffer Dictionaries",
+            "url": "\/scenarios\/proxysniffer\/dictionaries\/{dictionary_key} ",
+            "description": "Gets a Proxy Sniffer scenario custom dictionary by dictionary key. Custom dictionary can contain any data used by Proxy Sniffer scripts which needs to be stored separately from scripts.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0c22549b347432fb01bdedbda177ce6a",
+            "rawModeData": ""
+        },
+        {
+            "id": "7da629eb92e7aac8d556c725c0a39ea5",
+            "name": "Scenarios Proxy Sniffer Dictionaries",
+            "url": "\/scenarios\/proxysniffer\/dictionaries\/{dictionary_key} ",
+            "description": "Updates Proxy Sniffer scenario custom dictionary.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0c22549b347432fb01bdedbda177ce6a",
+            "rawModeData": ""
+        }
+    ]
+}
