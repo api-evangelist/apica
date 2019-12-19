@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Roles API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/roles ": {
+            " GET ": {
+                "summary": "Get Roles",
+                "description": "Return user roles\t\t\t",
+                "operationId": "GetRoles",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
