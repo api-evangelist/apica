@@ -1,0 +1,89 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Checks Command API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/checks\/command ": {
+            " POST ": {
+                "summary": "Checks Command",
+                "description": "Creates a new Command check.",
+                "operationId": "ChecksCommand",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/command-v2 ": {
+            " POST ": {
+                "summary": "Checks Command",
+                "description": "Creates a new Command check (version 2).",
+                "operationId": "ChecksCommandV2",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/command-v2\/{checkId} ": {
+            " PUT ": {
+                "summary": "Checks Command",
+                "description": "Updates a command check (version 2).",
+                "operationId": "ChecksCommandV2Checkid",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/command\/{checkId} ": {
+            " PUT ": {
+                "summary": "Checks Command",
+                "description": "Updates a command check.",
+                "operationId": "ChecksCommandCheckid",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/command\/categories ": {
+            " GET ": {
+                "summary": "Checks Command Categories",
+                "description": "Gets a list of all command check categories that are available for you as customer.",
+                "operationId": "ChecksCommandCategories",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/command-v2\/categories ": {
+            " GET ": {
+                "summary": "Checks Command Categories",
+                "description": "Gets a list of all command check (version 2) categories that are available for you as customer.",
+                "operationId": "ChecksCommandV2Categories",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/command\/locations ": {
+            " GET ": {
+                "summary": "Checks Command Locations",
+                "description": "Gets a list of all locations that are available for Command checks.",
+                "operationId": "ChecksCommandLocations",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/command-v2\/locations": {
+            " GET ": {
+                "summary": "Checks Command Locations",
+                "description": "Gets a list of all locations that are available for Command checks (version 2).",
+                "operationId": "ChecksCommandV2Locationsprotocolprotocol",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
