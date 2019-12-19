@@ -1,0 +1,71 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Checks Proxysniffer",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/checks\/proxysniffer ": {
+            " POST ": {
+                "summary": "Checks Proxy Sniffer",
+                "description": "Creates a new ProxySniffer check.",
+                "operationId": "ChecksProxysniffer",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/proxysniffer\/{checkId} ": {
+            " PUT ": {
+                "summary": "Checks Proxy Sniffer",
+                "description": "Updates a proxy sniffer check.",
+                "operationId": "ChecksProxysnifferCheckid",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/proxysniffer\/locations ": {
+            " GET ": {
+                "summary": "Checks Proxy Sniffer Locations",
+                "description": "Gets a list of all locations that are available for ProxySniffer checks.",
+                "operationId": "ChecksProxysnifferLocations",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/proxysniffer\/{checkId}\/results\/{resultId}\/urldata?format={format} ": {
+            " GET ": {
+                "summary": "Checks Proxysniffer Results",
+                "description": "Gets a file that contains ProxySniffer check result data.",
+                "operationId": "ChecksProxysnifferCheckidResultsResultidUrldataformatformat",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/proxysniffer\/{checkId}\/results\/urldata ": {
+            " POST ": {
+                "summary": "Checks Proxy Sniffer Results URLdata",
+                "description": "Gets ProxySniffer check results in json format by result ids.",
+                "operationId": "ChecksProxysnifferCheckidResultsUrldata",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/proxysniffer\/{checkId}\/results\/{resultId}\/errorlog ": {
+            " GET ": {
+                "summary": "Checks Proxy Sniffer Results Error Log",
+                "description": "Gets an error log of the given ProxySniffer check result.",
+                "operationId": "ChecksProxysnifferCheckidResultsResultidErrorlog",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
