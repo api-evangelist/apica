@@ -1,0 +1,82 @@
+{
+    "id": "3bbd14a95a56e6b39e7d71f3c16772aa",
+    "name": "Checks Port API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "4d2a469df29bdfd013dc8abdb1d67e5c",
+            "name": "Checks Port",
+            "url": "\/checks\/port ",
+            "description": "Creates a new Port check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3bbd14a95a56e6b39e7d71f3c16772aa",
+            "rawModeData": ""
+        },
+        {
+            "id": "6e1aa999f41395b1457a71eb21384de7",
+            "name": "Checks Port",
+            "url": "\/checks\/port\/{checkId} ",
+            "description": "Updates a Port check.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3bbd14a95a56e6b39e7d71f3c16772aa",
+            "rawModeData": ""
+        },
+        {
+            "id": "a23f4942b2b562eb44c617995ce52f9f",
+            "name": "Checks Port Locations",
+            "url": "\/checks\/port\/locations ",
+            "description": "Gets a list of all locations that are available for Port checks.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3bbd14a95a56e6b39e7d71f3c16772aa",
+            "rawModeData": ""
+        }
+    ]
+}
