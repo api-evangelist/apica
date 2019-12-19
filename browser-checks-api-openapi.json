@@ -1,0 +1,62 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Browser Checks API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/checks\/browser ": {
+            " POST ": {
+                "summary": "Checks Browser",
+                "description": "Creates a new browser check.",
+                "operationId": "ChecksBrowser",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/browser\/{checkId} ": {
+            " PUT ": {
+                "summary": "Checks Browser",
+                "description": "Updates a browser check.",
+                "operationId": "ChecksBrowserCheckid",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/browser\/locations ": {
+            " GET ": {
+                "summary": "Checks Browser Locations",
+                "description": "Gets a list of all locations that are available for browser checks.",
+                "operationId": "ChecksBrowserLocations",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/browser\/{checkId}\/results\/{resultId}\/urldata": {
+            " GET ": {
+                "summary": "Checks Browser Results",
+                "description": "Gets a file that contains browser check result data.",
+                "operationId": "ChecksBrowserCheckidResultsResultidUrldataformatformat",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/checks\/browser\/{checkId}\/results\/urldata ": {
+            " POST ": {
+                "summary": "Checks Browser Results",
+                "description": "Gets browser check results in json format by result ids.",
+                "operationId": "ChecksBrowserCheckidResultsUrldata",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
