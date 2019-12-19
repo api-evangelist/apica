@@ -1,0 +1,33 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Checks Job API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/checks\/{checkId}\/job ": {
+            " GET ": {
+                "summary": "Get Checks Job",
+                "description": "DEPRECATED. Gets the current job status for a check.",
+                "operationId": "ChecksCheckidJob",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " POST ": {
+                "summary": "Get Checks Job",
+                "description": "Executes a check.",
+                "operationId": "ChecksCheckidJob",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
