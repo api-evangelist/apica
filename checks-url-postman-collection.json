@@ -1,5 +1,5 @@
 {
-    "id": "52d32ea0eb3ebde7587c4ddb077bde3c",
+    "id": "ee31ed7f869c01eeaf69f7a8d185c2c2",
     "name": "Checks URL",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "06c76823cf5c7b0c863e64aed92a74b2",
+            "id": "c101b0bb6a7ba9b4f4499addc0d39746",
             "name": "Checks URL",
             "url": "\/checks\/url ",
             "description": "Creates a new URL check (legacy version 1).",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "collectionId": "ee31ed7f869c01eeaf69f7a8d185c2c2",
             "rawModeData": ""
         },
         {
-            "id": "bb0646e8693277a577d00c04336647e7",
+            "id": "673d99e50389553db06d505e478371e3",
             "name": "Checks URL",
             "url": "\/checks\/url-v2 ",
             "description": "Creates a new URL check (version 2).",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "collectionId": "ee31ed7f869c01eeaf69f7a8d185c2c2",
             "rawModeData": ""
         },
         {
-            "id": "f58fa8f424bd57757127151eefe750af",
+            "id": "1a475fd2dfcc85771b4e8ba964f30786",
             "name": "Checks URL",
             "url": "\/checks\/url\/{checkId} ",
             "description": "Updates a URL check (legacy version 1).",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "collectionId": "ee31ed7f869c01eeaf69f7a8d185c2c2",
             "rawModeData": ""
         },
         {
-            "id": "696b6ef0705bfaeecf0ea9d57c612ba0",
+            "id": "6d484f7d69b7b94776e00c15cd6ec4be",
             "name": "Checks URL",
             "url": "\/checks\/url-v2\/{checkId} ",
             "description": "Updates a URL check (version 2).",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "collectionId": "ee31ed7f869c01eeaf69f7a8d185c2c2",
             "rawModeData": ""
         },
         {
-            "id": "e4093c9201ccc8fc4b822b977d2749cb",
+            "id": "3982943eee81d215139b4f2d314872b1",
             "name": "Checks URL Locations",
             "url": "\/checks\/url\/locations ",
             "description": "Gets a list of all locations that are available for URL (legacy version 1) checks.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "collectionId": "ee31ed7f869c01eeaf69f7a8d185c2c2",
             "rawModeData": ""
         },
         {
-            "id": "053c4101226ffdafac83bc391164cc9a",
+            "id": "095e753a5d461eeed45a30c77cd7e855",
             "name": "Checks URL Locations",
             "url": "\/checks\/url-v2\/locations ",
             "description": "Gets a list of all locations that are available for URL (version 2) checks.",
@@ -144,7 +144,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "52d32ea0eb3ebde7587c4ddb077bde3c",
+            "collectionId": "ee31ed7f869c01eeaf69f7a8d185c2c2",
             "rawModeData": ""
         }
     ]
