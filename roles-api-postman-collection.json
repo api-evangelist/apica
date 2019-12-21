@@ -1,5 +1,5 @@
 {
-    "id": "adff183fdc305bfa1e2316ac874bb583",
+    "id": "aec85dafb388ab15c19ff10b0203d5f3",
     "name": "Roles API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "75855fe029c384780298c1815bce83e1",
+            "id": "d358f5d6476012022f56d376198d1de0",
             "name": "Get Roles",
             "url": "\/roles ",
             "description": "Return user roles\t\t\t",
@@ -29,7 +29,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "adff183fdc305bfa1e2316ac874bb583",
+            "collectionId": "aec85dafb388ab15c19ff10b0203d5f3",
             "rawModeData": ""
         }
     ]
