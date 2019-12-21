@@ -1,5 +1,5 @@
 {
-    "id": "271d472cb8d0d7890d2bcd2291b9178a",
+    "id": "70fad5e4a1defdccb993189808dd5524",
     "name": "Groups API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "e9e2bc82f7e903b06d86fc019943ee1a",
+            "id": "329a8ac6c8ede223e031001bea5d5e1b",
             "name": "Groups",
             "url": "\/groups ",
             "description": "Gets a hierarchy of all monitor groups that are visible to you as a user or a customer depending on the request context.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "271d472cb8d0d7890d2bcd2291b9178a",
+            "collectionId": "70fad5e4a1defdccb993189808dd5524",
             "rawModeData": ""
         },
         {
-            "id": "6610206889ba80a5e4937cab5875fce5",
+            "id": "8de8a753cb02cc263311f7675d8e633f",
             "name": "Groups",
             "url": "\/groups ",
             "description": "Creates a new monitor group.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "271d472cb8d0d7890d2bcd2291b9178a",
+            "collectionId": "70fad5e4a1defdccb993189808dd5524",
             "rawModeData": ""
         },
         {
-            "id": "77d5b5ac12c5ea9897b6af8fc649fc82",
+            "id": "b0873346b9c97c78cebdf337217b16da",
             "name": "Groups",
             "url": "\/groups\/{groupId} ",
             "description": "Updates a monitor group.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "271d472cb8d0d7890d2bcd2291b9178a",
+            "collectionId": "70fad5e4a1defdccb993189808dd5524",
             "rawModeData": ""
         },
         {
-            "id": "820ab23f253552c28c46866eec637aef",
+            "id": "56030cb69b175de7575dc20bd8b42385",
             "name": "Groups",
             "url": "\/groups\/{groupId} ",
             "description": "Deletes a monitor group by Id.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "271d472cb8d0d7890d2bcd2291b9178a",
+            "collectionId": "70fad5e4a1defdccb993189808dd5524",
             "rawModeData": ""
         },
         {
-            "id": "f36ec908de65417b5ad4bac34ce98e9f",
+            "id": "d7165223c8e84010491d374f61fe1224",
             "name": "Group Checks",
             "url": "\/groups\/{groupId}\/checks ",
             "description": "Gets a list of checks assigned to the monitor group.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "271d472cb8d0d7890d2bcd2291b9178a",
+            "collectionId": "70fad5e4a1defdccb993189808dd5524",
             "rawModeData": ""
         },
         {
-            "id": "ac31147eba4d38afb87068d74697601b",
+            "id": "f4b4f3b3234f16e376ef14ee42693403",
             "name": "Group Checks",
             "url": "\/groups\/{groupId}\/checks ",
             "description": "Assigns checks to the monitor group.",
@@ -144,11 +144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "271d472cb8d0d7890d2bcd2291b9178a",
+            "collectionId": "70fad5e4a1defdccb993189808dd5524",
             "rawModeData": ""
         },
         {
-            "id": "70416cefd239ab74dc61d01f5426fd29",
+            "id": "afd34263df4522b95ba7e94ee90722c0",
             "name": "Groups Checks",
             "url": "\/groups\/{groupId}\/checks ",
             "description": "Unassigns checks from the monitor group.",
@@ -167,11 +167,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "271d472cb8d0d7890d2bcd2291b9178a",
+            "collectionId": "70fad5e4a1defdccb993189808dd5524",
             "rawModeData": ""
         },
         {
-            "id": "3a545d8a689c606fd2c5f9e5a150f9e5",
+            "id": "1502291b9183f37b34633311b3b52ed0",
             "name": "Groups Users",
             "url": "\/groups\/{groupId}\/users ",
             "description": "Gets a list of users assigned to the monitor group.",
@@ -190,11 +190,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "271d472cb8d0d7890d2bcd2291b9178a",
+            "collectionId": "70fad5e4a1defdccb993189808dd5524",
             "rawModeData": ""
         },
         {
-            "id": "e40bfb05ad26b9227ea4856de3e334fe",
+            "id": "167cb4699b5b1b24e19fde13c09f7788",
             "name": "Groups Users",
             "url": "\/groups\/{groupId}\/users ",
             "description": "Assigns users to the monitor group.",
@@ -213,11 +213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "271d472cb8d0d7890d2bcd2291b9178a",
+            "collectionId": "70fad5e4a1defdccb993189808dd5524",
             "rawModeData": ""
         },
         {
-            "id": "fbe704634908440c1046c62bb75ae629",
+            "id": "69ba834c46ab683d29c0ee2fdbd020fc",
             "name": "Groups Users",
             "url": "\/groups\/{groupId}\/users ",
             "description": "",
@@ -236,7 +236,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "271d472cb8d0d7890d2bcd2291b9178a",
+            "collectionId": "70fad5e4a1defdccb993189808dd5524",
             "rawModeData": ""
         }
     ]
