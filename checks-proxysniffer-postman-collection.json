@@ -1,5 +1,5 @@
 {
-    "id": "bf7265e0520404619b17301753f68bf7",
+    "id": "6ba621f8011415b6badd209b9f2365e6",
     "name": "Checks Proxysniffer",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "520a842cc04afcb3808b80cd7d8ea3c4",
+            "id": "6547a2f5d2845ba092650d7cfe76c0f3",
             "name": "Checks Proxy Sniffer",
             "url": "\/checks\/proxysniffer ",
             "description": "Creates a new ProxySniffer check.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "collectionId": "6ba621f8011415b6badd209b9f2365e6",
             "rawModeData": ""
         },
         {
-            "id": "dd11f014ee842988574a514c8dc39ea9",
+            "id": "8406888d40583e297a83698deb71f691",
             "name": "Checks Proxy Sniffer",
             "url": "\/checks\/proxysniffer\/{checkId} ",
             "description": "Updates a proxy sniffer check.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "collectionId": "6ba621f8011415b6badd209b9f2365e6",
             "rawModeData": ""
         },
         {
-            "id": "ef7f3a60b58a0baf3f0865ccc7ff41da",
+            "id": "fabe79e90639c8ff86d2e703bec639e3",
             "name": "Checks Proxy Sniffer Locations",
             "url": "\/checks\/proxysniffer\/locations ",
             "description": "Gets a list of all locations that are available for ProxySniffer checks.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "collectionId": "6ba621f8011415b6badd209b9f2365e6",
             "rawModeData": ""
         },
         {
-            "id": "47efeab190a3347f605ed7f62c99fb6b",
+            "id": "a2fb6e3fc46b53d7f4de6a4d2dc8008a",
             "name": "Checks Proxysniffer Results",
             "url": "\/checks\/proxysniffer\/{checkId}\/results\/{resultId}\/urldata?format={format} ",
             "description": "Gets a file that contains ProxySniffer check result data.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "collectionId": "6ba621f8011415b6badd209b9f2365e6",
             "rawModeData": ""
         },
         {
-            "id": "0641a822fdf8eadeb6d01bf199b77a7c",
+            "id": "f0efdefe3a8e0f04223fff44799aa856",
             "name": "Checks Proxy Sniffer Results URLdata",
             "url": "\/checks\/proxysniffer\/{checkId}\/results\/urldata ",
             "description": "Gets ProxySniffer check results in json format by result ids.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "collectionId": "6ba621f8011415b6badd209b9f2365e6",
             "rawModeData": ""
         },
         {
-            "id": "3047f2aa67ee63b23b1f9171987a561a",
+            "id": "2428990828a69e7bd79c1eec275f7733",
             "name": "Checks Proxy Sniffer Results Error Log",
             "url": "\/checks\/proxysniffer\/{checkId}\/results\/{resultId}\/errorlog ",
             "description": "Gets an error log of the given ProxySniffer check result.",
@@ -144,7 +144,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bf7265e0520404619b17301753f68bf7",
+            "collectionId": "6ba621f8011415b6badd209b9f2365e6",
             "rawModeData": ""
         }
     ]
