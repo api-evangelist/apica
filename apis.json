@@ -11,8 +11,8 @@
         "service api",
         "testing"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -30,7 +30,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-command-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/checks-command-api-openapi.json"
                 }
             ]
         },
@@ -48,7 +48,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-url-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/checks-url-openapi.json"
                 }
             ]
         },
@@ -66,7 +66,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-proxysniffer-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/checks-proxysniffer-openapi.json"
                 }
             ]
         },
@@ -84,7 +84,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/scenarios-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/scenarios-api-openapi.json"
                 }
             ]
         },
@@ -102,7 +102,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/checks-api-openapi.json"
                 }
             ]
         },
@@ -120,7 +120,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/customers-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/customers-api-openapi.json"
                 }
             ]
         },
@@ -138,7 +138,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/messages-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/messages-api-openapi.json"
                 }
             ]
         },
@@ -156,7 +156,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-job-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/checks-job-api-openapi.json"
                 }
             ]
         },
@@ -174,7 +174,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/browser-checks-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/browser-checks-api-openapi.json"
                 }
             ]
         },
@@ -192,7 +192,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-ping-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/checks-ping-api-openapi.json"
                 }
             ]
         },
@@ -210,7 +210,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/roles-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/roles-api-openapi.json"
                 }
             ]
         },
@@ -228,7 +228,7 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/checks-port-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/checks-port-api-openapi.json"
                 }
             ]
         },
@@ -246,13 +246,17 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/groups-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apica\/master\/groups-api-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Blog",
             "url": "https:\/\/www.apicasystem.com\/blog\/"
