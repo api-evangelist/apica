@@ -1,5 +1,5 @@
 {
-    "id": "c0efe8cedccb1353842c3c8049a459e8",
+    "id": "62bd4028e7a039836310240adb7be62d",
     "name": "Checks API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "bd49b8150c19d5b3de5d20aadb043981",
+            "id": "7f70c42446ad7b3fe79acffe4a82ac88",
             "name": "Get Checks",
             "url": "httpsapi.pingdom.com\/\/checks ",
             "description": "Gets a list of all checks that are visible to you as a user or a customer depending on the request context.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "collectionId": "62bd4028e7a039836310240adb7be62d",
             "rawModeData": ""
         },
         {
-            "id": "4c9c028366aa5a7f77430d76bd6dc80c",
+            "id": "b94f96be4962065a25c84c03932501c3",
             "name": "Get Check",
             "url": "httpsapi.pingdom.com\/\/checks\/{checkId} ",
             "description": "Gets info about a check, current SLA, last result and its status.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "collectionId": "62bd4028e7a039836310240adb7be62d",
             "rawModeData": ""
         },
         {
-            "id": "18b1eb7c3b867941ae94a6fd7715f979",
+            "id": "f45ce1a4b17d9aeec81f4b4399030a68",
             "name": "Update Check",
             "url": "httpsapi.pingdom.com\/\/checks\/{checkId} ",
             "description": "Updates a check.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "collectionId": "62bd4028e7a039836310240adb7be62d",
             "rawModeData": ""
         },
         {
-            "id": "34590d0ee38e86ba39c6eb00d88149de",
+            "id": "e388a28b6e742b899e75cff680e97ffe",
             "name": "Delete Check",
             "url": "httpsapi.pingdom.com\/\/checks\/{checkId} ",
             "description": "Deletes a check.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "collectionId": "62bd4028e7a039836310240adb7be62d",
             "rawModeData": ""
         },
         {
-            "id": "9cb816d4f57667c8376ec4a8ca0c342d",
+            "id": "f081f2ced4d63328ee64a2f472536ce5",
             "name": "Get Checks Lastvalue",
             "url": "httpsapi.pingdom.com\/\/checks\/{checkId}\/lastvalue ",
             "description": "Gets the absolute last value of a specific check.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "collectionId": "62bd4028e7a039836310240adb7be62d",
             "rawModeData": ""
         },
         {
-            "id": "122cb956069b80f8b3f239b5236086f1",
+            "id": "bbdef870d62b8d53906a88bafda7751f",
             "name": "Get Checks Results",
             "url": "httpsapi.pingdom.com\/\/checks\/{checkId}\/results\/{millisecondsUtc}",
             "description": "Gets a specific check result by a numeric java timestamp.",
@@ -144,11 +144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "collectionId": "62bd4028e7a039836310240adb7be62d",
             "rawModeData": ""
         },
         {
-            "id": "bfae01b3bab2b7e0470e8bbaf25414e6",
+            "id": "6e345400d11cdcff1614fe9ab18c342d",
             "name": "Get Checks Results",
             "url": "httpsapi.pingdom.com\/\/checks\/{checkId}\/results",
             "description": "Gets the most recent check results.",
@@ -167,11 +167,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "collectionId": "62bd4028e7a039836310240adb7be62d",
             "rawModeData": ""
         },
         {
-            "id": "010d4b969cf1e1cfb91c0df826326bc5",
+            "id": "05e7b19ca687d2c22b5611876dc875da",
             "name": "Get Check List",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/checks",
             "description": "Returns a list overview of all checks.",
@@ -219,7 +219,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c0efe8cedccb1353842c3c8049a459e8",
+            "collectionId": "62bd4028e7a039836310240adb7be62d",
             "rawModeData": ""
         }
     ]
