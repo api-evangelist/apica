@@ -1,5 +1,5 @@
 {
-    "id": "9450344c905b380178b77d7b9ed8b886",
+    "id": "b889c932b91b344031883c5e785052b6",
     "name": "Checks Ping API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "541af48c3a381c2985d7b60dc3b663ec",
+            "id": "1acafbcd13eaed2eb8aa1cef8f18dfc7",
             "name": "Checks Ping",
             "url": "\/checks\/ping ",
             "description": "Creates a new Ping check.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9450344c905b380178b77d7b9ed8b886",
+            "collectionId": "b889c932b91b344031883c5e785052b6",
             "rawModeData": ""
         },
         {
-            "id": "e97018ee71d5851b55f34df8f841d90d",
+            "id": "74e9af94e809f15b7b0ba4894668c252",
             "name": "Checks Ping",
             "url": "\/checks\/ping\/{checkId} ",
             "description": "Updates a Ping check.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9450344c905b380178b77d7b9ed8b886",
+            "collectionId": "b889c932b91b344031883c5e785052b6",
             "rawModeData": ""
         },
         {
-            "id": "ef1a008dc9f740379c1e110b0190cf68",
+            "id": "e577af62363c4c11355f857991fbdab2",
             "name": "Checks Ping Locations",
             "url": "\/checks\/ping\/locations ",
             "description": "Gets a list of all locations that are available for Ping checks.",
@@ -75,7 +75,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9450344c905b380178b77d7b9ed8b886",
+            "collectionId": "b889c932b91b344031883c5e785052b6",
             "rawModeData": ""
         }
     ]
