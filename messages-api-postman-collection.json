@@ -1,5 +1,5 @@
 {
-    "id": "2d060549efea29e0382a070203212e79",
+    "id": "64017a7c3f070c90605e0d9b6ce35655",
     "name": "Messages API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "5dc75bf46850fcf5437af04bd9daebcd",
+            "id": "b4a8f390817454d1c96b3fdea71c3a1d",
             "name": "Delete Buckets Messages",
             "url": "\/buckets\/{bucketKey}\/messages",
             "description": "Clear a bucket (remove all messages)..",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2d060549efea29e0382a070203212e79",
+            "collectionId": "64017a7c3f070c90605e0d9b6ce35655",
             "rawModeData": ""
         },
         {
-            "id": "0020437f71678842b092ba05739c03a2",
+            "id": "d4ec6e3225fc3b5eff62ec01f31704b3",
             "name": "Get Buckets Messages",
             "url": "\/buckets\/{bucketKey}\/messages",
             "description": "Retrieve a list of messages in a bucket.",
@@ -89,11 +89,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2d060549efea29e0382a070203212e79",
+            "collectionId": "64017a7c3f070c90605e0d9b6ce35655",
             "rawModeData": ""
         },
         {
-            "id": "6f7180463c3d003cac44bbef74671dd1",
+            "id": "ffaa137c5a13ac81d4c746bbdd8e29d7",
             "name": "Post Buckets Messages",
             "url": "\/buckets\/{bucketKey}\/messages",
             "description": "Create a message.",
@@ -120,11 +120,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2d060549efea29e0382a070203212e79",
+            "collectionId": "64017a7c3f070c90605e0d9b6ce35655",
             "rawModeData": ""
         },
         {
-            "id": "44fdf6c48c488eafa1114cb0a07f9a9a",
+            "id": "817ac048943acef56c994266ec125233",
             "name": "Get Buckets Messages Messageid",
             "url": "\/buckets\/{bucketKey}\/messages\/{messageId}",
             "description": "Retrieve the details for a single message..",
@@ -158,11 +158,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2d060549efea29e0382a070203212e79",
+            "collectionId": "64017a7c3f070c90605e0d9b6ce35655",
             "rawModeData": ""
         },
         {
-            "id": "13c38feb8833c693d87aaf386ee4d145",
+            "id": "b3f29e109f85ad2821b722d4d907d0a3",
             "name": "Get Messages",
             "url": "\/messages?active={active}&amp;customerId={customerId} ",
             "description": "Gets a list of UI messages. UI messages are used for user notifications on announcements\/information\/warnings.\t\t\t",
@@ -181,11 +181,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2d060549efea29e0382a070203212e79",
+            "collectionId": "64017a7c3f070c90605e0d9b6ce35655",
             "rawModeData": ""
         },
         {
-            "id": "13f3c6e29086aaafe0e4ef59939aa4b5",
+            "id": "7614b3c16e1a3150e98970cba7414ea8",
             "name": "Post Messages",
             "url": "\/messages ",
             "description": "Creates an UI message.\t\t\t",
@@ -204,11 +204,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2d060549efea29e0382a070203212e79",
+            "collectionId": "64017a7c3f070c90605e0d9b6ce35655",
             "rawModeData": ""
         },
         {
-            "id": "3878358706b127e6d44fa423959745fd",
+            "id": "daf512e12b7c11b65afed75323598f2f",
             "name": "Get Messages",
             "url": "\/messages\/{id} ",
             "description": "Gets an existing UI message by Id.\t\t\t",
@@ -227,11 +227,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2d060549efea29e0382a070203212e79",
+            "collectionId": "64017a7c3f070c90605e0d9b6ce35655",
             "rawModeData": ""
         },
         {
-            "id": "3fd552a79c1c4e2aa1bbe2838d495bb1",
+            "id": "291a2d5437c561d42372e97883ee2a9d",
             "name": "Put Messages",
             "url": "\/messages\/{id} ",
             "description": "Updates an existing UI message.\t\t\t",
@@ -250,11 +250,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2d060549efea29e0382a070203212e79",
+            "collectionId": "64017a7c3f070c90605e0d9b6ce35655",
             "rawModeData": ""
         },
         {
-            "id": "b9036dd434c105301bdef6a6b45c7bef",
+            "id": "fb37fb65a25d9349e70a026c4aabd065",
             "name": "Delete Messages",
             "url": "\/messages\/{id} ",
             "description": "Deletes an existing UI message.\t\t\t",
@@ -273,7 +273,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2d060549efea29e0382a070203212e79",
+            "collectionId": "64017a7c3f070c90605e0d9b6ce35655",
             "rawModeData": ""
         }
     ]
