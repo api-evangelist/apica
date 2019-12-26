@@ -1,5 +1,5 @@
 {
-    "id": "5a7e8774c9da916b5a0444009df7e4d5",
+    "id": "8cbee37dfdc7035eacd07d30c07088f3",
     "name": "Checks Job API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "dd16b4304491cae7e8e3d021d11313a9",
+            "id": "ffbed7a5ddbea69a88bf45fb8c7a8fe3",
             "name": "Get Checks Job",
             "url": "\/checks\/{checkId}\/job ",
             "description": "DEPRECATED. Gets the current job status for a check.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5a7e8774c9da916b5a0444009df7e4d5",
+            "collectionId": "8cbee37dfdc7035eacd07d30c07088f3",
             "rawModeData": ""
         },
         {
-            "id": "27a978720f80f4d9f492d809743f6210",
+            "id": "dcc5e003377fb55ec849159f76c1da5d",
             "name": "Get Checks Job",
             "url": "\/checks\/{checkId}\/job ",
             "description": "Executes a check.",
@@ -52,7 +52,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5a7e8774c9da916b5a0444009df7e4d5",
+            "collectionId": "8cbee37dfdc7035eacd07d30c07088f3",
             "rawModeData": ""
         }
     ]
