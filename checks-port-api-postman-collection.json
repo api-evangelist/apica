@@ -1,5 +1,5 @@
 {
-    "id": "d36c69b84820bb5e1bb86626bd138067",
+    "id": "7aa65779e1c705435ad3f46a0ec83fbf",
     "name": "Checks Port API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "266b3c8b0c07c5d07f1f82c1b082d74c",
+            "id": "11f9a0a24f2e241ecf28116d3709df73",
             "name": "Checks Port",
             "url": "\/checks\/port ",
             "description": "Creates a new Port check.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d36c69b84820bb5e1bb86626bd138067",
+            "collectionId": "7aa65779e1c705435ad3f46a0ec83fbf",
             "rawModeData": ""
         },
         {
-            "id": "b303671c109bdc1506535a0903b8710b",
+            "id": "2a8497355d12826036cccb619721338d",
             "name": "Checks Port",
             "url": "\/checks\/port\/{checkId} ",
             "description": "Updates a Port check.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d36c69b84820bb5e1bb86626bd138067",
+            "collectionId": "7aa65779e1c705435ad3f46a0ec83fbf",
             "rawModeData": ""
         },
         {
-            "id": "f75f0a28c3e7a303c0a6ba11c2f3b552",
+            "id": "27cc2fa4839c9dd23388cd382c13615b",
             "name": "Checks Port Locations",
             "url": "\/checks\/port\/locations ",
             "description": "Gets a list of all locations that are available for Port checks.",
@@ -75,7 +75,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d36c69b84820bb5e1bb86626bd138067",
+            "collectionId": "7aa65779e1c705435ad3f46a0ec83fbf",
             "rawModeData": ""
         }
     ]
