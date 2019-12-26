@@ -1,5 +1,5 @@
 {
-    "id": "fa52c3e45acbb6434ec1e525fbc894f6",
+    "id": "e7771c850f1609269080fe1becea444d",
     "name": "Customers API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "4b10743437b6a46e4a680ae5bb9e1303",
+            "id": "80af08ac90e02ca54ea241e2f8cee45a",
             "name": "Customers",
             "url": "\/customers\/{customerId} ",
             "description": "\r\n\t\t\t\tReturns subcustomer by subcustomer's ID.\r\n\t\t\t",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "fa52c3e45acbb6434ec1e525fbc894f6",
+            "collectionId": "e7771c850f1609269080fe1becea444d",
             "rawModeData": ""
         },
         {
-            "id": "48c20f61737cb890cbca14919808b004",
+            "id": "aae999633f468a8f118d322f08fa72d7",
             "name": "Customers",
             "url": "\/customers ",
             "description": "\r\n\t\t\t\tCreates customer.\r\n\t\t\t",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "fa52c3e45acbb6434ec1e525fbc894f6",
+            "collectionId": "e7771c850f1609269080fe1becea444d",
             "rawModeData": ""
         },
         {
-            "id": "7da8885f499d3b032b5aef79016f3bc0",
+            "id": "853a857ccf8e87a88851ac320f28b5b8",
             "name": "Customers Subscription",
             "url": "\/customers\/{customerId}\/subscription ",
             "description": "\r\n\t\t\t\tUpdates customer's subscription.\r\n\t\t\t",
@@ -75,7 +75,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "fa52c3e45acbb6434ec1e525fbc894f6",
+            "collectionId": "e7771c850f1609269080fe1becea444d",
             "rawModeData": ""
         }
     ]
