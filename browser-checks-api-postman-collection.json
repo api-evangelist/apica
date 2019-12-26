@@ -1,5 +1,5 @@
 {
-    "id": "8f8b910a96203ac4a38c12d6530c9eba",
+    "id": "4036da8b9dac86f89310bfdfbc2600bf",
     "name": "Browser Checks API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "1284343c4ebe50511d13ffb4b3bec9ad",
+            "id": "5508b5841825563e13d83560cf6e99df",
             "name": "Checks Browser",
             "url": "\/checks\/browser ",
             "description": "Creates a new browser check.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f8b910a96203ac4a38c12d6530c9eba",
+            "collectionId": "4036da8b9dac86f89310bfdfbc2600bf",
             "rawModeData": ""
         },
         {
-            "id": "7bbdf4346e420085d492839fa6cc6d4b",
+            "id": "b223f04da922b22ef2bc8b0599e054d4",
             "name": "Checks Browser",
             "url": "\/checks\/browser\/{checkId} ",
             "description": "Updates a browser check.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f8b910a96203ac4a38c12d6530c9eba",
+            "collectionId": "4036da8b9dac86f89310bfdfbc2600bf",
             "rawModeData": ""
         },
         {
-            "id": "425eb482661ef2ac40d31faaca3465c4",
+            "id": "55d89de15857dc56c5c16dbf91b5d47c",
             "name": "Checks Browser Locations",
             "url": "\/checks\/browser\/locations ",
             "description": "Gets a list of all locations that are available for browser checks.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f8b910a96203ac4a38c12d6530c9eba",
+            "collectionId": "4036da8b9dac86f89310bfdfbc2600bf",
             "rawModeData": ""
         },
         {
-            "id": "5fedfb2c9ed2aa3da4afc46db8a49ff1",
+            "id": "0563829bfa86cea7179261e4bd8adaf4",
             "name": "Checks Browser Results",
             "url": "\/checks\/browser\/{checkId}\/results\/{resultId}\/urldata",
             "description": "Gets a file that contains browser check result data.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f8b910a96203ac4a38c12d6530c9eba",
+            "collectionId": "4036da8b9dac86f89310bfdfbc2600bf",
             "rawModeData": ""
         },
         {
-            "id": "00615a0275b90f2f2028ae538ce24c0b",
+            "id": "98e2ad0cfb80c2b5a71898e889db65e5",
             "name": "Checks Browser Results",
             "url": "\/checks\/browser\/{checkId}\/results\/urldata ",
             "description": "Gets browser check results in json format by result ids.",
@@ -121,7 +121,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f8b910a96203ac4a38c12d6530c9eba",
+            "collectionId": "4036da8b9dac86f89310bfdfbc2600bf",
             "rawModeData": ""
         }
     ]
