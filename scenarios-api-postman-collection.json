@@ -1,5 +1,5 @@
 {
-    "id": "5f46a1a2debb67232666fd181329225c",
+    "id": "f49cbbac5aa60ae5290df1f0bb9248bc",
     "name": "Scenarios API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "3c7676ba0782003cf4c21da3e97fc31b",
+            "id": "9324ef4067514e5a8f6db42039c07d7e",
             "name": "Scenarios Proxy Sniffer Dictionaries",
             "url": "\/scenarios\/proxysniffer\/dictionaries ",
             "description": "Adds Proxy Sniffer scenario custom dictionary.\t\t\t",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5f46a1a2debb67232666fd181329225c",
+            "collectionId": "f49cbbac5aa60ae5290df1f0bb9248bc",
             "rawModeData": ""
         },
         {
-            "id": "e22204730be437209a41e3be5efe4f15",
+            "id": "d011cb5bd034ef8da3b2f38a118fb988",
             "name": "Scenarios Proxy Sniffer Dictionaries",
             "url": "\/scenarios\/proxysniffer\/dictionaries\/{dictionary_key} ",
             "description": "Gets a Proxy Sniffer scenario custom dictionary by dictionary key. Custom dictionary can contain any data used by Proxy Sniffer scripts which needs to be stored separately from scripts.\t\t\t",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5f46a1a2debb67232666fd181329225c",
+            "collectionId": "f49cbbac5aa60ae5290df1f0bb9248bc",
             "rawModeData": ""
         },
         {
-            "id": "fec010742d5c86a20756fe29d72a0fd6",
+            "id": "d58039f2fdcbe384680b2fde6befb354",
             "name": "Scenarios Proxy Sniffer Dictionaries",
             "url": "\/scenarios\/proxysniffer\/dictionaries\/{dictionary_key} ",
             "description": "Updates Proxy Sniffer scenario custom dictionary.\t\t\t",
@@ -75,7 +75,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5f46a1a2debb67232666fd181329225c",
+            "collectionId": "f49cbbac5aa60ae5290df1f0bb9248bc",
             "rawModeData": ""
         }
     ]
